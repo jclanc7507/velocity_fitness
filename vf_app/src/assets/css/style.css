@@ -89,7 +89,7 @@ section {
 .hero {
   background-image: url('../images/christian-wiediger-G7CV5R9av_Q-unsplash.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: flex;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -251,7 +251,7 @@ section {
 .trainer {
   margin: 20px;
   flex: 1;
-  background: #024e76;
+  background: #2f6124;
   color: #fefdf0;
 }
 
@@ -281,7 +281,7 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-  background: #024e76;
+  background: #2f6124;
 }
 
 .contact h2 {
@@ -333,7 +333,7 @@ section {
 .contact-form button {
   width: 100%;
   border: none;
-  background: #fefdf0;
+  background: #ff7700 ;
   color: #024e76;
   text-align: center;
   padding: 15px 0;
