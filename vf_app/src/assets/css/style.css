@@ -89,7 +89,7 @@ section {
 .hero {
   background-image: url('../images/christian-wiediger-G7CV5R9av_Q-unsplash.jpg');
   background-size: cover;
-  background-position: flex;
+  background-position: top;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -365,4 +365,21 @@ section {
 
 .flex-row {
   display: flex;
+}
+
+
+/* INSPECTOR CSS CHANGES FROM DEVTOOLS */ 
+
+.hero-cta {
+  border-radius: 2.5rem;
+  opacity: 75%;
+  background: #666559;
+  border-style: solid;
+  border-color: #2f6124;
+}
+.hero-cta h2 {margin: 2.5rem;justify-content: initial;display: table-cell;padding: 1rem;}
+
+p {
+  margin: 1rem;
+  padding: 0.1rem;
 }
